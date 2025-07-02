@@ -1,0 +1,17 @@
+{
+  "target_host": "127.0.0.1",
+  "target_port": 12345,
+  "listen_host": "0.0.0.0",
+  "listen_port": 12345,
+  "packet_delay": 0.3,
+  "fragment_delay": 0.1,
+  "iterations": 1,
+  "use_mutations": true,
+  "use_fragmentation": true,
+  "mutation_chain_min": 1,
+  "mutation_chain_max": 3,
+  "thread_count": 1,
+  "mutation_intensity": {
+    "zalgo": 3
+  }
+}
